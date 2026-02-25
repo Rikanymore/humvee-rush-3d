@@ -1,0 +1,18 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+html, body, #root {
+  width: 100vw;
+  height: 100vh;
+  overflow: hidden; 
+  background-color: #87CEEB; 
+}
+
+canvas {
+  touch-action: none;
+  user-select: none;   
+  -webkit-user-select: none;
+}
